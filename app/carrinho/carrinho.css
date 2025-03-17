@@ -1,0 +1,79 @@
+body{
+    background: #89B789;
+}
+
+.MenuSuperior{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.voltar{
+    color: #fff;
+    border: none;
+    background-color: #89B789;
+    height: 40px;
+}
+
+.CaixaProdutos {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 500px;
+    background: #5f805f;
+    border-radius: 50px;
+    padding: 20px; 
+}
+
+.CaixaProdutos ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.CaixaProdutos li {
+    list-style-type: none;
+    width: 100%;
+}
+
+.Produtos {
+    background: #89B789;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.FinalizarCompra {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.btn-finalizar {
+    background-color: #5f805f;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-finalizar:hover {
+    background-color: #a6cfa6;
+}
+
+
+
+
+
