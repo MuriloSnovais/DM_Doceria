@@ -1,6 +1,10 @@
+'use client'
+
+import "./login.css"
+
 function Login() {
     return ( 
-        <div class="login">
+        <div className="login">
 
             <h1>Login</h1>
 
@@ -20,7 +24,7 @@ function Login() {
             
             <p>
                 Não possui login?
-                <a href="api_cadastro.html" >Cadastre-se</a>
+                <a href="/cadastro"> Cadastre-se</a>
             </p>
 
         </div>
