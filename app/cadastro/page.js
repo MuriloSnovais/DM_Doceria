@@ -28,6 +28,10 @@ function Cadastro() {
 
             </form>
 
+            <p>
+                <a href="/login">Voltar</a>
+            </p>
+
         </div>
     );
 }
