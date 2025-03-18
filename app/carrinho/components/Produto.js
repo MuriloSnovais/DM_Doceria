@@ -1,8 +1,10 @@
 function Produto(attr) {
     return ( 
         <div>
-            <p>{attr.nome}</p>
-            <p>{attr.quantidade}X</p>
+            <li className="Produtos">
+                <p>{attr.nome}</p>
+                <p>{attr.quantidade}X</p>
+            </li>
         </div>
     );
 }

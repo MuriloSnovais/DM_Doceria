@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "./carrinho.css"
 import Produto from "./components/Produto";
+import { redirect } from "next/navigation";
 
 function Carrinho() {
 
@@ -16,15 +17,9 @@ function Carrinho() {
 
         <div className="CaixaProdutos">
             <ul>
-                <li className="Produtos">
-                    <Produto className={set_carrinho[0]} nome="Brigadeiro" quantidade="2"/>
-                </li>
-                <li className="Produtos">
-                    <Produto nome="Cookie" quantidade="7"/>
-                </li>
-                <li className="Produtos">   
-                    <Produto nome="Bolo de Pote" quantidade="4"/>
-                </li>
+                <Produto nome="Brigadeiro" quantidade="2"/>
+                <Produto nome="Cookie" quantidade="7"/> 
+                <Produto nome="Bolo de Pote" quantidade="4"/>
             </ul>
 
             <div className="BarraLateral"></div>
@@ -32,7 +27,7 @@ function Carrinho() {
         </div>  
 
         <div className="FinalizarCompra">
-            <button className="btn-finalizar">
+            <button onClick={()=> redirect("./pagamento", )} className="btn-finalizar">
                 Finalizar Compra
             </button>
         </div>
