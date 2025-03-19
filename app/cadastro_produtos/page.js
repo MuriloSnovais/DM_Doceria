@@ -28,10 +28,10 @@ function CadastroProdutos() {
     
             toast.success("Produto cadastrado com sucesso!")
     
-            alteraNomeProduto("")
-            alteraImagem("")
-            alteraDescricao("")
-            alteraPreco("")
+            // alteraNomeProduto("")
+            // alteraImagem("")
+            // alteraDescricao("")
+            // alteraPreco("")
         }
 
 
@@ -67,6 +67,8 @@ function CadastroProdutos() {
                 <button>Adicionar</button>
 
             </form>
+
+            <ToastContainer />
 
         </div>
     );
