@@ -17,16 +17,15 @@ function Cadastro() {
         const usuarioExistente = JSON.parse(localStorage.getItem(email))
 
         if (usuarioExistente) {
-            toast.error("Este e-mail já está cadastrado.");
-            return; 
+            toast.error("Este e-mail já está cadastrado.")
+            return
         }
 
         localStorage.setItem("nome", nome)
         localStorage.setItem("email", email)
         localStorage.setItem("senha", senha)
 
-        toast.success("Cadastro realizado com sucesso!");
-
+        toast.success("Cadastro realizado com sucesso!")
     }
 
     return (  
