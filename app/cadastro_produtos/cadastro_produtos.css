@@ -19,7 +19,7 @@ body {
 .cadastro_produtos {
     background: #89B789;
     width: 80%;
-    max-width: 500px;
+    max-width: 550px;
     padding: 4%;
     border-radius: 60px;
     box-shadow: 20px 20px 10px #444;
@@ -27,8 +27,8 @@ body {
 
 .cadastro_produtos h1 {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 15%;
+    margin-top: 4%;
+    margin-bottom: 10%;
     color: #FFF;
     font-size: 40px;
     font-weight: 600;
@@ -38,7 +38,7 @@ body {
     width: 100%;
     padding: 5%;
     margin-top: 1%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     border: none;
     border-radius: 5px;
     background: #5F805F;
@@ -56,8 +56,7 @@ body {
     border-radius: 5px;
     background: #5F805F;
     color: #FFF;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 4%;
 
     cursor: pointer;
     transition: background-color 0.3s ease;
