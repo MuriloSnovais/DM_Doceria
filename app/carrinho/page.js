@@ -8,12 +8,9 @@ function Carrinho() {
 
     const [carrinho, set_carrinho] = useState(["","",""])
     let [itens_carrinho, set_itens_carrinho] = useState(0)
-
+    
     return ( 
     <div>
-        <div className="MenuSuperior">
-            <button className="voltar"><i className="fa-solid fa-arrow-left"></i></button>
-        </div>
 
         <div className="CaixaProdutos">
             <ul>

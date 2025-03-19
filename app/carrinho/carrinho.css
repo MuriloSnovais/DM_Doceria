@@ -27,6 +27,10 @@ body{
 .CaixaProdutos li {
     list-style-type: none;
 }
+.CaixaProdutos ul {
+    text-align: center;
+    padding: 0px;
+}
 
 .Produtos {
     background: #89B789;

@@ -1,0 +1,71 @@
+body{
+    background: #B3D0B3;
+    height: 100%;
+}
+
+.tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.pagamentos {
+    text-align: center;
+    background-color: #77b177;
+    max-width: 600px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.pagamentos ul{
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.pagamentos li {
+    list-style-type: none;
+}
+
+.pagamentos button{
+    color: #fff;
+    background-color: #5f805f;
+    border-radius: 50px;
+    margin: 15px;
+    border: none;
+    width: 400px;
+}
+
+.btn{
+    background-color: #5f805f;
+    color: #fff;
+    border-radius: 50px;
+    margin: 15px;
+    border: none;
+    width: 400px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #93c593;
+}
+
+.pix{
+    height: 50px;
+
+}
+
+.cartao {
+    height: 50px;
+
+}
+
+.dinheiro{
+    height: 50px;
+
+}
