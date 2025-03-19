@@ -1,12 +1,27 @@
 body{
     background: #89B789;
+    
 }
 
 .prioridades{
     border: 2px wheat;
-    background-color: azure;
     padding: 30px;
     background-color: #89B789;
     text-align: center;
-   
+    display: flex;
+    margin: 10px;
+    
+}
+
+.prioridade{
+    margin: 10px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+ul{
+    text-align: center;
+
+
+
 }
