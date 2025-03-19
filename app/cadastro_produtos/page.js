@@ -27,13 +27,7 @@ function CadastroProdutos() {
             localStorage.setItem("preco", preco)
     
             toast.success("Produto cadastrado com sucesso!")
-    
-            // alteraNomeProduto("")
-            // alteraImagem("")
-            // alteraDescricao("")
-            // alteraPreco("")
         }
-
 
     }
 
