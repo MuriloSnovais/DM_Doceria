@@ -10,7 +10,7 @@ function CadastroProdutos() {
     const [ nomeProduto, alteraNomeProduto ] = useState("")
     const [ imagem, alteraImagem ] = useState("")
     const [ descricao, alteraDescricao ] = useState("")
-    const [ preco, alteraPreco ] = useState("")
+    const [ valor, alteraValor ] = useState("")
     
     function cadastroProdutos(e){
         e.preventDefault()
@@ -52,8 +52,8 @@ function CadastroProdutos() {
                 </label> <br/>
 
         
-                <label>Preço <br/>
-                <input required placeholder="Digite o preço" onChange={ (e)=> alteraPreco(e.target.value) } />
+                <label>Valor<br/>
+                <input required placeholder="Digite o valor" onChange={ (e)=> alteraValor(e.target.value) } />
                 </label>
         
                 <br/>

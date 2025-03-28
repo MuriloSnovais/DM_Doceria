@@ -42,6 +42,14 @@ function Cadastro() {
                 <label>Email <br/>
                 <input required placeholder="Digite seu email" onChange={ (e)=> alteraEmail(e.target.value) } />
                 </label> <br/>
+
+                {/* <label>CPF<br/>
+                <input required placeholder="Digite seu cpf" onChange={ (e)=> alteraCpf(e.target.value) } />
+                </label> <br/>
+
+                <label>Telefone/Celular<br/>
+                <input required placeholder="Digite seu telefone" onChange={ (e)=> alteraTelefone(e.target.value) } />
+                </label> <br/> */}
         
                 <label>Senha <br/>
                 <input type="password" required placeholder="Digite sua senha" onChange={ (e)=> alteraSenha(e.target.value) } />
